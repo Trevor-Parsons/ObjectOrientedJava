@@ -1,0 +1,5 @@
+Hunter-Bear-Ninja
+By: Trevor Parsons
+
+	This game is a clone of the classic Rock-Paper-Scissors, where hunter beats bear, bear beats ninja, and ninja beats hunter. The game takes user-input for a number 1 (hunter), 2 (bear), or 3 (ninja) and then makes a selection based on a rudimentary AI to counter the user choice. After the first game is played, the program records the win-loss-tie record of the user, displays it, and asks if the user would like to play again. If the user selects 'N' or 'n', then the program terminates, otherwise the game loop is executed again.  
+	The first choice the computer makes for hunter, bear, or ninja is random. After that, the computer uses a very basic strategy of remembering the last choice that the user made and then choosing the option that would have beat that choice. The goal of this is to prevent the user from only playing one option and hoping to win. 

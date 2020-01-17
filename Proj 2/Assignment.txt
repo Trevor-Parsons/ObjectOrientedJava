@@ -1,0 +1,31 @@
+The first is a class called LinearEquation that stores two linear equations.
+
+ax + by = e
+
+cx + dy = f
+
+x = (ed - bf) / (ad - bc)
+
+y = (af-ec) / (ad - bc)
+
+ 
+
+It should have:
+
+Private data fields a, b, c, d, e and f
+
+Constructor that takes in arguments for a through f.
+
+Six getter methods for a, b, c, d, e, and f
+
+A method named isSolvable() that returns true if a*d - b*c is not 0.
+
+Methods getX() and getY() that return the solution for the equation.
+
+ 
+
+Submission should include a UML diagram for this class.
+
+Lastly, write a test program (class) that prompts the user for the six values and report if the equation has a solution. If so, display the solution.
+
+For submission, submit the two source .java files and your UML diagram.

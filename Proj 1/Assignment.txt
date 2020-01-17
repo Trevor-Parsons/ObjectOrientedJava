@@ -1,0 +1,13 @@
+In this project I would like you to write a Java class to play a variant of Rock-Paper-Scissors called Hunter-Bear-Ninja against the computer. This game works similarly to Rock-Paper-Scissors but with the rules of:
+
+1) Hunter shoots bear
+
+2) Bear eats ninja
+
+3) Ninja kills the hunter
+
+ 
+
+Multiple games should be able to be played. The game should prompt the user after each game if they would like to play again (Asking for Yy or Nn). Each iteration of the game, it should tell them what their win/loss ratio is.
+
+In addition, for 10 points, I want you to implement an "intelligent strategy" for your computer player. This does not have to be particularly smart, but implement some method to try and "outfox" the human player.
